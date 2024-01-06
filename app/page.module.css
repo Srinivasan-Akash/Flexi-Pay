@@ -1,3 +1,11 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(314deg, #1E2432 -9.24%, #0F171F 40.16%, #000A0C 88.54%); */
+  /* background: #080D17; */
+  background: #0f0d0e;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -6,7 +14,7 @@
 
 .headline {
   color: #fff;
-  font-family: "Paytone One";
+  font-family: 'Paytone One';
   font-size: 3rem;
   margin-top: 5%;
   text-align: center;
@@ -14,7 +22,7 @@
 }
 
 .headline span {
-  color: #5e31c3;
+  color: #5E31C3;
 }
 
 .btns {
@@ -24,7 +32,7 @@
 }
 
 .btns button {
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   border-radius: 5px;
   border: none;
   cursor: pointer;
