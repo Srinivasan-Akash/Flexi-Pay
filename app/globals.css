@@ -1,19 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600;700&family=Paytone+One&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600;700&family=Paytone+One&display=swap');
 
 ::-webkit-scrollbar {
   width: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6b7280;
+  background-color: #6B7280;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #1f2937;
+  background-color: #1F2937;
 }
 
 * {
@@ -30,12 +28,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 a {
