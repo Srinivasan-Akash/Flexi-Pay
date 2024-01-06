@@ -3,6 +3,7 @@ import styles from "./hero.module.css";
 // @ts-ignore
 import Typewriter from "typewriter-effect/dist/core";
 import { useEffect } from "react";
+import SimpleBtn from "../Buttons/SimpleBtn";
 
 const Hero = () => {
   useEffect(() => {
@@ -20,8 +21,8 @@ const Hero = () => {
         <span id="typingEffect">DEBIT CARD !!</span>
       </h1>
       <div className={styles.btns}>
-        <button>Contact Us</button>
-        <button>Get Started</button>
+        <SimpleBtn>Contact Us</SimpleBtn>
+        <SimpleBtn>Get Started</SimpleBtn>
       </div>
     </div>
   );
